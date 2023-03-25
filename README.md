@@ -73,10 +73,10 @@ The following animation demonstrates the application functionality:
 !](/public/assets/images/)
 
 ## Usage Instructions
-
+https://thomas-model-view-controller.herokuapp.com/
 ## Deployed Application Link:
-[Deployed Application Link:]()
-
+[Deployed Application Link:](https://thomas-model-view-controller.herokuapp.com/)
+https://thomas-model-view-controller.herokuapp.com/
 ## YouTube Walkthrough Video:
 [Click Here to Watch]()
 

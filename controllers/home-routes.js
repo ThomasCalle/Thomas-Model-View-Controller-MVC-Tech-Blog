@@ -19,7 +19,7 @@ router.get("/", async (req, res) => {
   }
 });
 
-router.get("/post/:id", async (req, res) => {
+router.get("/post/:id", withAuth, async (req, res) => {
   try {
     const postData = await Post.findByPk(req.params.id, {
       include: [
@@ -110,3 +110,9 @@ router.get("/editpost/:id", async (req, res) => {
 });
 
 module.exports = router;
+
+
+
+
+
+
