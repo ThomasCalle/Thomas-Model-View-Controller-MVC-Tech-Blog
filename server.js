@@ -22,6 +22,7 @@ app.use(session(sess));
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+// IMPORTANT FOR IMAGES 
 app.use(express.static("public"));
 app.engine("handlebars", hbs.engine);
 app.set("view engine", "handlebars");

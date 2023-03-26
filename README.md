@@ -72,7 +72,21 @@ THEN I am able to view comments but I am prompted to log in again before I can a
 The following animation demonstrates the application functionality:
 !](/public/assets/images/)
 
-## Usage Instructions
+## Usage Instructions:
+
+1. Account login:
+
+1. Access Blog Post: Click on the "View Post" option. This will direct you to a webpage containing the entire post along with any supplementary media or comments associated with it.
+
+2. Feedback or Comment: Click on a post, kindly navigate to the comment section positioned at the bottom of the page. Fill in the form with your name, email address, and comment to post it successfully.
+
+In case you aspire to create and share your personal blog post, you will be required to register and create an account. Click on the "Sign Up" link in the navigation menu, and enter your full name, email address, and preferred password in the registration form.
+
+Once you have successfully logged in, locate and click on the "New Post" link available in the navigation menu. This will enable you to create a new blog post. You will be prompted to fill in the title, content, and any media that you wish to include.
+
+Once you have completed creating your blog post, kindly click on the "Publish" button. This will make your post live on the site, and other users can access it and leave their comments.
+
+You also have the option to make changes or delete your posts. For this, click on the "My Posts" link provided in the navigation menu, select the specific post that you wish to edit or delete, and perform the required actions accordingly.
 https://thomas-model-view-controller.herokuapp.com/
 ## Deployed Application Link:
 [Deployed Application Link:](https://thomas-model-view-controller.herokuapp.com/)
@@ -95,9 +109,16 @@ https://thomas-model-view-controller.herokuapp.com/
 - License Badge: [Shields.io](https://shields.io/)
 - Visual Studio Code: [Website](https://code.visualstudio.com/)
 
-## What I Learned
+## What I Learned:
+1.
+2.
+3.
 
 ### Continued Development:
+1. 
+2.
+3
+
 
 ## License & Copyright ©
   
