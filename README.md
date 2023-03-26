@@ -1,8 +1,10 @@
-# Thomas' Model View Controller (MVC): Tech Blog
+# Thomas' Model View Controller (MVC): Chess Blog
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 ## Description.
 
 Thomas' Chess Blog is Heroku deployed application, which serves as a CMS-style platform designed for Chess players and newcomers alike. It allows those in the Chess communtiy to publish blog posts based on their thoughts and opinions - additionally, the comment section below, allows users to interact and engage with another on Chess posts. The application follows the MVC paradigm, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.
+##### Note: The repository name is meant to reflect the name of the University of Toronto's Module (14) name convetion and 'not' the name of the Chess Blog itself.
 
 ## Table of Contents:
 - [Overview](#Overview)
@@ -66,10 +68,10 @@ THEN I am able to view comments but I am prompted to log in again before I can a
 ```
 
 ## GIF:
-### Figure .1 GIF
+### Figure.1 Thomas' Chess Blog GIF
 
 The following animation demonstrates the application functionality:
-!](/public/assets/images/)
+![](/public/images/ThomasChessBlog.GIF)
 
 ## Usage Instructions:
 
