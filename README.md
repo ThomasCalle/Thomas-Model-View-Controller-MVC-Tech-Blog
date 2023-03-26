@@ -2,10 +2,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Description.
 
-Thomas'
-
-Writing about tech can be just as important as making it. Developers spend plenty of time creating new applications and debugging existing codebases, but most developers also spend at least some of their time reading and writing about technical concepts, recent advancements, and new technologies. A simple Google search for any concept covered in this course returns thousands of think pieces and tutorials from developers of all skill levels!
-Your task this week is to build a CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well. You’ll build this site completely from scratch and deploy it to Heroku. Your app will follow the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.
+Thomas' Chess Blog is Heroku deployed application, which serves as a CMS-style platform designed for Chess players and newcomers alike. It allows those in the Chess communtiy to publish blog posts based on their thoughts and opinions - additionally, the comment section below, allows users to interact and engage with another on Chess posts. The application follows the MVC paradigm, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.
 
 ## Table of Contents:
 - [Overview](#Overview)
@@ -22,6 +19,8 @@ Your task this week is to build a CMS-style blog site similar to a Wordpress sit
 # Overview
 
 ## The Challenge:
+
+The challenge of building this application involved creating a scalable and robust platform that could support multiple users, blog post and comments. The application was designed with security in mind, allowing users to authenticate themselves and protect their personal data. Furthermore, the application had to be built using modern web development technologies and follow best practices, including the MVC architecture pattern.
 
 ## Assigned User Story:
 ```
@@ -74,51 +73,67 @@ The following animation demonstrates the application functionality:
 
 ## Usage Instructions:
 
-1. Account login:
+#### Visit the homepage, "Login" or "Sign Up" for an account if you don't already have one.
 
-1. Access Blog Post: Click on the "View Post" option. This will direct you to a webpage containing the entire post along with any supplementary media or comments associated with it.
+1. Option: A) Account login: click on "login" in the navigation menu - enter Username and Password then click "Sign In" to proceed.
+1. Option: B) Account Sign Up: click on "Sign Up" in the navigation menu - once open, enter Username, Email and Password then click "Sign Up" to proceed.
+2. Once you have an account, you can create blog posts and comment on other users' posts.
+3. Create a blog post: click on the "dashboard" option in the navigation menu and select "Create a New Blog Post."
+4. Enter a title and contents for your Chess Blog Contribution, then click "Create Post" to save and publish.
+5. View existing blog posts by clicking on "Home" in the navigation menu.
+6. Comment: to view or add a comments to a blog post, click on any blog post - once open, you may view the comment history as well as add a new comments.
+7. Edit or delete your blog post: click on the "dashboard" option in the navigation menu and select the post you wish to edit or delete.
+8. Account Log out: click on "logout" in the navigation menu.
 
-2. Feedback or Comment: Click on a post, kindly navigate to the comment section positioned at the bottom of the page. Fill in the form with your name, email address, and comment to post it successfully.
-
-In case you aspire to create and share your personal blog post, you will be required to register and create an account. Click on the "Sign Up" link in the navigation menu, and enter your full name, email address, and preferred password in the registration form.
-
-Once you have successfully logged in, locate and click on the "New Post" link available in the navigation menu. This will enable you to create a new blog post. You will be prompted to fill in the title, content, and any media that you wish to include.
-
-Once you have completed creating your blog post, kindly click on the "Publish" button. This will make your post live on the site, and other users can access it and leave their comments.
-
-You also have the option to make changes or delete your posts. For this, click on the "My Posts" link provided in the navigation menu, select the specific post that you wish to edit or delete, and perform the required actions accordingly.
-https://thomas-model-view-controller.herokuapp.com/
 ## Deployed Application Link:
 [Deployed Application Link:](https://thomas-model-view-controller.herokuapp.com/)
-https://thomas-model-view-controller.herokuapp.com/
+
+## GitHub Repository:
+[GitHub Repository:](https://github.com/ThomasCalle/Thomas-Model-View-Controller-MVC-Tech-Blog)
+
 ## YouTube Walkthrough Video:
 [Click Here to Watch]()
 
 ## Screenshots:
 ### Figure 1. Screenshot
-![](/public/assets/images/Screenshot.png) 
+![](/public/images/ThomasChessBlogScreenshot.png) 
 
 ## Installation Process
+1. Clone the Repository from GitHub 
+(or) Download Zip Folder from Repository from GitHub
+Open the cloned (or downloaded) repository in any source code editor.
 
-## Built With
+## Built With:
 - Saiyan Pride
 - JSON:[ JSON](https://www.npmjs.com/package/json)
 - Dynamic JavaScript
 - Node.js [Version 16.18.1](https://nodejs.org/en/blog/release/v16.18.1/)
 - Express.js:[Express.js](https://expressjs.com/en/starter/installing.html)
+- Bcryptjs: [2.4.3](https://www.npmjs.com/package/bcryptjs)
+- Connect Session Store using Sequelize: [7.0.4](https://www.npmjs.com/package/connect-session-sequelize)
+- Dotenv: [8.6.0](https://www.npmjs.com/package/dotenv)
+- Express: [4.17.1](https://www.npmjs.com/package/express)
+- Express Handlebars: [5.2.0](https://www.npmjs.com/package/express-handlebars)
+- Express-Session: [1.17.1](https://www.npmjs.com/package/express-session)
+- Handlebars.js: [4.7.6](https://www.npmjs.com/package/handlebars)
+- Node MySql2: [2.3.3](https://www.npmjs.com/package/mysql2)
+- Sequelize: [6.29.3](https://www.npmjs.com/package/sequelize)
 - License Badge: [Shields.io](https://shields.io/)
 - Visual Studio Code: [Website](https://code.visualstudio.com/)
 
 ## What I Learned:
-1.
-2.
-3.
+1. Implementing Model-View-Controller (MVC) architecture.
+2. Creating and interacting with a MySQL database using Sequelize ORM.
+3. Creating and using Express.js servers and routes.
+4. Using Handlebars.js to create and display dynamic templates.
+5. Implementing user authentication and password hashing with bcrypt.
+6. Using Bootstrap for styling and layout.
 
 ### Continued Development:
-1. 
-2.
-3
-
+1. Pagination for blog posts and comments.
+2. Editing and deleting comments.
+3. User profile pages.
+4. Social media integration for sharing posts.
 
 ## License & Copyright ©
   
