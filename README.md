@@ -3,7 +3,7 @@
 
 ## Description.
 
-Thomas' Chess Blog is Heroku deployed application, which serves as a CMS-style platform designed for Chess players and newcomers alike. It allows those in the Chess communtiy to publish blog posts based on their thoughts and opinions - additionally, the comment section below, allows users to interact and engage with another on Chess posts. The application follows the MVC paradigm, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.
+Thomas' Chess Blog is Heroku deployed application, which serves as a CMS-style platform designed for Chess players and newcomers alike. It allows those in the Chess communtiy to publish blog posts based on their thoughts and opinions. Additionally, the comment section below, allows users to interact and engage with another on Chess posts. The application follows the MVC paradigm, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.
 ##### Note: The repository name is meant to reflect the name of the University of Toronto's Module (14) name convetion and 'not' the name of the Chess Blog itself.
 
 ## Table of Contents:
@@ -83,7 +83,7 @@ The following animation demonstrates the application functionality:
 3. Create a blog post: click on the "dashboard" option in the navigation menu and select "Create a New Blog Post."
 4. Enter a title and contents for your Chess Blog Contribution, then click "Create Post" to save and publish.
 5. View existing blog posts by clicking on "Home" in the navigation menu.
-6. Comment: to view or add a comments to a blog post, click on any blog post - once open, you may view the comment history as well as add a new comments.
+6. Comment: to view or "add a new comment" go to any blog post, click on any blog post - once open, you may view the comment history as well as add a new comments.
 7. Edit or delete your blog post: click on the "dashboard" option in the navigation menu and select the post you wish to edit or delete.
 8. Account Log out: click on "logout" in the navigation menu.
 
