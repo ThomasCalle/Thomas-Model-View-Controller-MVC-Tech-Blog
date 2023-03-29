@@ -30,10 +30,10 @@
               <li class="nav-item">
                 <a class="nav-link" href="/">Home</a>
               </li>
-              {{#if logged_in}}
                 <li class="nav-item">
                   <a class="nav-link" href="/dashboard">Dashboard</a>
                 </li>
+              {{#if logged_in}}
                 <li class="nav-item">
                   <a class="nav-link" href="#" id="chess-logout">Logout</a>
                 </li>
@@ -50,7 +50,7 @@
         </div>
       </nav>
     </header>
-    <div class="container">
+    <div class="container" style="margin-bottom: 15vh;">
       {{{body}}}
     </div>
 <footer class="bg-dark text-white py-3" style="position: fixed; bottom: 0; width: 100%;">
